@@ -1,3 +1,5 @@
+package basics;
+
 public class Addition {
 
     public static void main(String[] args) {
@@ -8,6 +10,6 @@ public class Addition {
 
         int add = a+b+c;
 
-        System.out.println("Addition="+add);
+        System.out.println("basics.Addition="+add);
     }
 }

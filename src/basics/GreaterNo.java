@@ -1,3 +1,5 @@
+package basics;
+
 public class GreaterNo {
 
     public static void main(String[] args) {
