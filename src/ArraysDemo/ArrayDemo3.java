@@ -11,7 +11,9 @@ public class ArrayDemo3 {
         str[2] = "Harshal";
         str[3] = "Karan";
         str[4] = "Prafulla";
+
         System.out.println(str.length);
+
         for(int i=0 ; i<str.length ;i++ )
            System.out.println(str[i]);
 
