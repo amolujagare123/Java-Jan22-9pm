@@ -9,7 +9,7 @@ public class Java2 {
 
         ob.a = 78;
         ob.d = 9.8;
-        ob.c = 'g';
+      //  ob.c = 'g';
         ob.str = "amol";
         ob.display();
 

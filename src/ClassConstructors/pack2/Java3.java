@@ -10,11 +10,11 @@ public class Java3 {
         Java1 ob = new Java1();
 
         ob.a = 78;
-        ob.d = 9.8;
+    /*    ob.d = 9.8;
         ob.c = 'g';
         ob.str = "amol";
         ob.display();
-
+*/
 
     }
 
