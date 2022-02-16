@@ -3,9 +3,9 @@ package ClassConstructors.pack1;
 public class Java1 {
 
     public int a ;
-    double d;
+    public double d;
     private char c;
-    String str; // data members
+   protected String str; // data members
 
     void display() // member function
     {

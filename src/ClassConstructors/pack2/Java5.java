@@ -2,7 +2,7 @@ package ClassConstructors.pack2;
 
 import ClassConstructors.pack1.Java1;
 
-public class Java3 {
+public class Java5 {
 
 
     public static void main(String[] args) {
@@ -12,11 +12,7 @@ public class Java3 {
         ob.a = 78;
 
         ob.d = 9.8;
-
-        //ob.str = "amol";
-
-
-
+      //  ob.str = "amol";
     /*    ob.d = 9.8;
         ob.c = 'g';
         ob.str = "amol";
