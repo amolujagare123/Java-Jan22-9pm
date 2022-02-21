@@ -1,6 +1,6 @@
 package InheritanceDemos.polymorphismDemo;
 
-public final class OverridingDemo {
+public /*final*/ class OverridingDemo {
 
     /*final*/ void common()
     {

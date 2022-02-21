@@ -2,7 +2,7 @@ package StaticNFinal;
 
 public class FinalVariable {
 
-    final int speed = 150;
+   /* final*/ int speed = 150;
 
     void change()
     {
