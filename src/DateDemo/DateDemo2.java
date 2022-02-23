@@ -10,7 +10,7 @@ public class DateDemo2 {
 
        String dateStr = "02/05/2019";
         // convert String into date
-       SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
         Date date = sd.parse(dateStr);
         System.out.println(date);
 
