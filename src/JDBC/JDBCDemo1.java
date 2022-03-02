@@ -22,6 +22,7 @@ public class JDBCDemo1 {
         Statement st = con.createStatement();
 
         // 4. executing the query : DML / DDL
+        //--------------------------------------------
         // DML - Data manipulation language -> insert, update , delete
         // DDL - Data Definition language -> select
         // select , insert, update , delete
