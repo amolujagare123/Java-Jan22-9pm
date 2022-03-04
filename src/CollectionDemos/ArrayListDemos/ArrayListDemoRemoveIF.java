@@ -9,7 +9,7 @@ public class ArrayListDemoRemoveIF {
         ArrayList<String> al  = new ArrayList<>();
 
         al.add("Anjali"); // 0
-        al.add("Arunna"); // 1
+        al.add("Aruna"); // 1
         al.add("Chinamaya"); // 2
         al.add("Deepali"); // 3
         al.add("Harshal"); // 4
@@ -17,13 +17,18 @@ public class ArrayListDemoRemoveIF {
 
         System.out.println("al="+al);
 
-        // remove elements whose first letter starts with A
+        // 1. remove elements whose first letter starts with A
         //-----------------------------------------------
         // solution choose a varible write into removeIf Method
         // no need to specify its type
         // write predicate symbol ->
         // write the condition
-        al.removeIf(str -> (str.charAt(0)=='A') );
+
+      //  al.removeIf(str -> (str.charAt(0)=='A') );
+
+        // 2. Remove elements whose String length is greater than 7
+
+        al.removeIf(str-> str.length()>7);
         System.out.println("al="+al);
 
 
